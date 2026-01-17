@@ -5,10 +5,10 @@
 
 
 stack<pair<int,int>>st;
-st.push({10,5});
-st.push({3,8});
-st.push({4,7});
-st.push({20,9});
+st.push(10,5);
+st.push(3,8);
+st.push(4,7);
+st.push(20,9);
 
 
 //20 4 3 10 -პირველი  ველი
