@@ -1,0 +1,12 @@
+13.დაწერე ბინარული ძებნის ხის მაჩვენებლიანი ცვლადით რეალიზაციის ინსტრუქცია.
+
+struct node{
+    int data;
+    node* left
+    node* right;
+    node(int data){
+        this->data = data;
+        this->left = NULL;
+        this->right = NULL;
+    }
+};    node*root;
