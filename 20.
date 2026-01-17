@@ -1,0 +1,11 @@
+დაწერეთ ბინარული ძებნის ხეში მინიმუმის წაშლის ალგორითმი deletemin(node*root).
+
+node* delete_min(node* root){
+    if(root == NULL) return root;
+    if(root->left != NULL)
+        root->left = delete_min(root->left);
+    else
+        root = root->right;
+    
+    return root;
+}
