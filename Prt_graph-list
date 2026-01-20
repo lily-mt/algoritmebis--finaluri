@@ -1,0 +1,11 @@
+გრაფის ბეჭდვა LIST-ის გამოყენებით
+
+void Graph::print_Graph(int V){
+    list<int>::iterator it;
+    for(int i=0;i<V; ++i){
+        cout<<i<<"";
+        for(it=adj[i].begin(); it!=adj[i].end();++it)
+         cout<<"->"<<*it;
+        cout<<endl;
+    }
+}
