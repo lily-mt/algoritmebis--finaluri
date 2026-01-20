@@ -1,6 +1,3 @@
 დაწერეთ გრაფის წვეროების ინიციალიზაციის ინსტრუქცია ვექტორების გამოყენებით.
 
-void addedge(vector<int> adj[], int u, int v) {
-    adj[u].push_back(v);
-    adj[v].push_back(u);
-}
+vector<vector<int>> adj(V);
