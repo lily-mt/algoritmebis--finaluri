@@ -1,0 +1,12 @@
+წონიანი ოროენტირებული გრაფის ბეჭდვის კოდი
+
+void print(vector<ipair>adj[],int V){
+   vector<ipair>::iterator it;
+    for(int u=0;u<V;++u){
+       for (it = adj[u].begin(); it != adj[u].end(); ++it) {
+            int v = (*it).first;
+            int wt = (*it).second;
+            cout<<u<<"->"<<v<<" "<<wt<<endl;
+        }
+    }
+}
