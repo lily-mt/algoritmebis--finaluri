@@ -5,10 +5,10 @@
 
 
 queue<pair<int,int>>q;
-q.push(10,5);
-q.push(3,8);
-q.push(4,7);
-q.push(20,9);
+q.push({10,5});
+q.push({3,8});
+q.push({4,7});
+q.push({20,9});
 
 
 //10 3 4 20 -პირველი  ველი
