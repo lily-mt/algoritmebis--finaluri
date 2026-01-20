@@ -5,10 +5,11 @@
 
 
 list<pair<int,int>>I;
-I.push_back(10,5);
-I.push_back(3,8);
-I.push_back(4,7);
-I.push_back(20,9);
+I.push_back(make_pair(10,5));
+I.push_back(make_pair(3,8));
+I.push_back(make_pair(4,7));
+I.push_back(make_pair(20,9));
+
 
 
 //10 3 4 20 -პირველი  ველი
