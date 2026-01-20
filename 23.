@@ -1,0 +1,7 @@
+დაწერეთ ორიენტირებული გრაფის აგების პროცედურა addEdge(int v, int w) მეზობელი წვეროების სიებით აღწერის ინსტრუქციებით. 
+
+
+
+void addEdge(list<int>adj[], int v, int w){ 
+   adj[v].push_back(w); 
+   }
