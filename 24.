@@ -1,0 +1,8 @@
+დაწერეთ წონადი ორიენტირებული გრაფოს აგების პროცედურა მეზობელი წვეროების ვექტორებით აღწერის ინსტრუქციებით. 
+
+
+
+void addEdge(vector<pair<int,int>>adj[], int v, int w , int wt){ 
+   adj[v].push_back(make_pair(w,wt)); 
+   }
+  
