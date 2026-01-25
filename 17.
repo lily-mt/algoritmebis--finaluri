@@ -1,3 +1,11 @@
 დაწერეთ გრაფის წვეროების ინიციალიზაციის ინსტრუქცია ვექტორების გამოყენებით.
 
-vector<vector<int>> adj(V);
+class graph{
+    int V;
+    vector<int>*adj;
+public:
+    graph(int V){
+        this->V=V;
+        adj=new vector<int>[V];
+    }
+};
