@@ -1,4 +1,22 @@
 18.დაწერეთ გრაფის წვეროების ინიციალიზაციის ინსტრუქცია ბმული სიების გამოყენებით.
 
+struct node {
+    int data;
+    node* next;
+    node(int data) {
+        this->data = data;
+        this->next = NULL;
+    }
+};
 
-      list<node*> adj(V);
+struct graph {
+    int V;
+    node** adj;   
+
+    graph(int V) {
+        this->V = V;
+        adj = new node*[V];
+        for (int i = 0; i < V; i++) \
+            adj[i] = NULL;  
+    }
+};
