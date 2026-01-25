@@ -1,13 +1,5 @@
 18.დაწერეთ გრაფის წვეროების ინიციალიზაციის ინსტრუქცია ბმული სიების გამოყენებით.
 
-struct node {
-    int data;
-    node* next;
-    node(int data) {
-        this->data = data;
-        this->next = NULL;
-    }
-};
 
 struct graph {
     int V;
