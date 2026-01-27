@@ -1,7 +1,7 @@
 წონიანი ოროენტირებული გრაფის ბეჭდვის კოდი
 
-void print(vector<ipair>adj[],int V){
-   vector<ipair>::iterator it;
+void print(vector<pair<int,int>>adj[],int V){
+   vector<pair<int,int>>::iterator it;
     for(int u=0;u<V;++u){
        for (it = adj[u].begin(); it != adj[u].end(); ++it) {
             int v = (*it).first;
