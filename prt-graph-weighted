@@ -6,7 +6,7 @@ void print(vector<pair<int,int>>adj[],int V){
        for (it = adj[i].begin(); it != adj[i].end(); ++it) {
             int v = (*it).first;
             int wt = (*it).second;
-            cout<<u<<"->"<<v<<" "<<wt<<endl;
+            cout<<i<<"->"<<v<<" "<<wt<<endl;
         }
     }
 }
